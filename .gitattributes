@@ -1,0 +1,4 @@
+platform/gamestation-go-*.sh text eol=lf
+platform/gamestation-go-*.md text eol=lf
+platform/gamestation-go-*.txt text eol=lf
+README.md whitespace=cr-at-eol
