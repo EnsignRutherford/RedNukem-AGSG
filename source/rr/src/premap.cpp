@@ -1303,7 +1303,7 @@ static inline int G_CheckExitSprite(int spriteNum) { return ((uint16_t)sprite[sp
 // Deer Huntin' sky placement (angle units, 2048 = 360 degrees; tile pixels). Tunable via
 // dh_skyxoffs / dh_skyyoffs / dh_skyrepeat / dh_skystretch, applied at the next level load.
 // g_dhSkyRepeat is log2 of how many times the sky tile repeats around the horizon.
-int32_t g_dhSkyXOffs = 3;
+int32_t g_dhSkyXOffs = 4;
 int32_t g_dhSkyYOffs = -5;
 int32_t g_dhSkyRepeat = 1;
 // Horizontal stretch of the Deer Huntin' sky in percent (100 = the 2-repeat look, 200 = each tile twice as wide).

@@ -239,10 +239,10 @@ capability-matched event device and refuses an ambiguous match.
   the clouds always join up with no seam. The effective stretch is therefore stepped:
   with `dh_skyrepeat 1`, 200 and anything above gives one tile round the circle, 100 gives two.
   The sky is also slid to match the DOS game: `dh_skyxoffs`
-  (default 3 angle units, 2048 = 360 degrees, so 1 unit is about 0.18 degrees of view;
+  (default 4 angle units, 2048 = 360 degrees, so 1 unit is about 0.18 degrees of view;
   lower/negative moves the clouds right, higher moves them left) and
   `dh_skyyoffs` (default -5 tile pixels; negative moves the clouds down). The defaults
-  are the final hard-coded values (`dh_skyrepeat 1`, `dh_skystretch 200`, `dh_skyxoffs 3`,
+  are the final hard-coded values (`dh_skyrepeat 1`, `dh_skystretch 200`, `dh_skyxoffs 4`,
   `dh_skyyoffs -5`), so no `autoexec.cfg` entry is needed. All of these remain
   console variables (`autoexec.cfg` can still override them) and apply at the next level load. The horizontal
   offset is `parallaxxoffs_override` in the software renderer's sky code. The sky
