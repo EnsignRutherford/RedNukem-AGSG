@@ -79,6 +79,7 @@ A port of several BUILD Engine games derived from the Duke Nukem 3D codebase, ba
 * Duke Nukem 3D: Atomic Edition
 * Redneck Rampage
 * Redneck Rampage: Rides Again
+* Redneck Deer Huntin'
 * Duke Nukem 64
 * NAM/NAPALM
 * World War II GI
@@ -88,6 +89,7 @@ A port of several BUILD Engine games derived from the Duke Nukem 3D codebase, ba
 2. Copy game data files:
     * Duke Nukem 3D: DUKE3D.GRP, DUKE.RTS
     * Redneck Rampage: REDNECK.GRP, REDNECK.RTS, optionally CD audio tracks as OGG file in the format trackXX.ogg (where XX is the track number)
+    * Redneck Deer Huntin': the game's own GRP and data files from your copy of the game (for example the Steam install)
     * Duke Nukem 64: Duke 64 cartridge ROM dump, optionally MIDI tracks extracted from DUKE3D.GRP
     * NAM: NAM.GRP, NAM.RTS, CON files
     * World War II GI: WW2GI.GRP, WW2GI.RTS, CON files
